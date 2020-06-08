@@ -42,8 +42,6 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // 'speak' method.
 // See Lecture 50, part 1
 for (name in names) {
-
-
   if (names[name].charAt(0)=="j"||names[name].charAt(0)=="J") {
      byeSpeaker.speak(names[name]);
   } else {
